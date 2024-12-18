@@ -1,0 +1,183 @@
+
+@import url(https://fonts.google.com/specimen/Parkinsans);
+
+*{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: midnightblue;
+}
+
+header.header img{
+    width: 150px;
+}
+
+section.top-page {
+   background: url("../DRIPPIN_-_VeTa_fond_ecran_1.jpg");
+   background-size: cover;
+   height: 120vh;
+} 
+
+/* page de bienvenu */
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+.big-title{
+    color: white;
+    font-size: 40px;
+ 
+}
+
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 100px;
+}
+
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-type: none;
+    background-color: midnightblue;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li{
+    color: black;
+}
+
+/* service */
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.service-item{
+    dispaly: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon{
+    font-size: 50px;
+    color: midnightblue;
+}
+
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* our url */
+
+.section-title{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: midnightblue;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.liens-principaux{
+    background-color: red;
+    min-height: 250px;
+    display: flex;
+}
+
+.nos-liens{
+    margin: 50px;
+}
+
+.liens{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 250px;
+    height: 300px;
+    flex: 1;
+}
+
+.liens1{
+    background-image: url(../Design\ sans\ titre\ \(1\).png);
+}
+
+.liens2{
+    background-image: url(../Design\ sans\ titre\ \(2\).png);
+}
+
+.liens3{
+    background-image: url(../Design\ sans\ titre\ \(3\).png);
+}
+
+.liens4{
+    background-image: url(../Design\ sans\ titre\ \(4\).png);
+}
+
+.diff-liens{
+    background-color: rgb(255, 255, 255);
+    min-height: 0px;
+}
+
+/* contact */
+
+.propos{
+    font-size: 200pix;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.propos::before{
+    content: "";
+    position: absolute;
+    background-color: midnightblue;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.nous-contacter{
+    font-size: 200pix;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    background-color: midnightblue;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.contacter{
+    background-color: midnightblue;
+    min-height: 100px;
+    color:aquamarine;
+}
